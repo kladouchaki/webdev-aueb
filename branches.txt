@@ -1,0 +1,25 @@
+{
+    "bank":{
+        "branches": [
+            {
+                "Title": "Athens",
+                "branchnumber": "1",
+                "employeesnumber": "9",
+                "balances": "20.000euros"
+            },
+            {
+                "Title": "London",
+                "branchnumber": "2",
+                "employeesnumber": "7",
+                "balances": "10.000euros"
+
+            },
+            {
+                "Title": "Barcelona",
+                "branchnumber": "3",
+                "employeesnumber": "4",
+                "balances": "7.000euros"
+            }   
+        ]
+    }
+}

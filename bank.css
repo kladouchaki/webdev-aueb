@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    height: auto;
+    width: auto;
+    padding: 0px;
+    outline: none;
+    background-color: rgba(211, 213, 231); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BankLogo-img {
+    width: 30%;
+    height: auto; 
+    background-color: rgba(211, 213, 231);
+    text-align: left;
+}
+  
+    
+
+.header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 2px 2px;
+    font-weight: bold;        
+} 
+
+.body, html {
+    height: 100%;
+}
+
+ .container {
+    width: 50%;
+    height: auto;
+    margin: 0 auto; 
+    padding-top: 150px;
+ }
+
+ .navoptions {
+    color: rgb(6, 107, 19);
+ }  
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(128, 128, 128);
+    border-radius: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.BankSupport {
+    width: 50%;
+    height: 50%; 
+    background-color: rgba(211, 213, 231);
+    text-align: center;
+}
+
+#documents {
+    background-image: url('./img/documents.jpg');
+}
+
+#websecure {
+    background-image: url('./img/web\ secure.jpg');
+}
+
+#gdpr {
+    background-image: url('./img/gdpr...png');
+}
+
+.documents-text, .websecure-text, .gdpr-text {
+border: 1px solid black;
+border-radius: 5px;
+padding: 10px 15px;
+text-align: justify;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.toggle-button {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.toggle-button > button {
+    color: rgb(6, 107, 19);
+    width: 60px;
+    height: 60px;
+}
+
+.toggle-menu {
+    padding-top: 120px;
+    text-align: center;
+    line-height: 30px;
+    display: none;
+}
+
+.toggle-menu li > a {
+    text-decoration: none;
+}
+
+.toggle-menu > ul > li > a {
+    font-size: px;
+    color: black;
+}
+.toggle-menu > ul > li {
+   padding-top: 20px;
+}
+
+
+.menu > li {
+    margin-right: 20px;  
+}
+
+.menu {
+    width: 55%;
+    position: relative;
+}
+
+.menu, li {
+    display: inline-block;
+    padding: 0 10px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration:none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.menu li a:hover {
+    color: rgb(98, 0, 255);
+}
+
+.menu li a:active {
+    color: green;
+}
+
+.apply > a:hover {
+    color: blue;
+}
+.apply > a:active {
+    color: green;
+}
+  
+#welcomeLogo {
+    color: rgb(6, 107, 19);
+    padding: 20px
+}
+
+.h3 {
+color: rgb(6, 107, 19);
+padding: 20px;
+}
+
+.container-sm {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+   
+}
+
+.createAccountBtn {
+    position:absolute;
+    background-color: transparent;
+    
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social > p {
+    margin-right: 20px;
+}
+
+.fa-square-facebook, .fa-square-instagram  {
+    color: blue;
+    font-size: 30 px;
+}
+
+.fa-square-youtube {
+    color: red;
+    font-size: 30 px;
+}
+
+.fa-x-twitter {
+    color: black;
+    font-size: 15px;
+}
+
+@media (max-width: 992px) {
+    .toggle-button {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    .BankLogo-img {
+        width: 10;
+        height: autos;
+    }
+}
+
+@media (max-width: 768px) {
+.BankLogo-img {
+    width: auto;
+    height: 75px;
+}
+.menu {
+    font-size: 30px;
+}
+}
+
+@media (max-width: 576px) {
+    .BankLogo-img {
+        width: auto;
+        height: 60px;
+    }
+    .menu {
+        font-size: 24px;
+    }
+    .toggle-button > button {
+        width: 45px;
+        height: 45px;
+    }
+} 
+
+@media (max-width: 420px) {
+    .BankLogo-img {
+        width: auto;
+        height: 50px;
+    }
+    .toggle-button > button {
+        width: 35px;
+        height:350px;
+    }
+    .social > p {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    .copyright > p {
+        font-size: 15px;
+    }
+
+}

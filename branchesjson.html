@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aloha Bank Branches</title>
+    <script src="js/jquery.min.js"></script>
+    
+</head>
+<body>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+    </style>
+
+    <h1>List of available Branches</h1>
+    <table class="branches-list"></table>
+    <div>
+        <form>
+            <input id="searchInput" type="text" placeholder="Πληκτρολογήστε ένα Κατάστημα">
+            <button type="button" onclick="fetchBranchesFromApi()">Αναζήτηση</button>
+        </form>
+    </div>
+
+    <script src="branchesjson.js"></script>
+</body>
+</html>
+

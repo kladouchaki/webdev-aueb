@@ -1,0 +1,25 @@
+<bank>
+	   <branches>
+		         
+                <Title>Athens</Title>
+                <branchnumber>1</branchnumber>
+                <employeesnumber>9</employeesnumber>
+                <balances>20.000euros</balances>
+           </branches>
+          
+	
+	   <branches>
+                <Title>London</Title>
+                <branchnumber>2</branchnumber>
+                <employeesnumber>7</employeesnumber>
+                <balances>10.000euros</balances>
+	   </branches>
+
+
+	   <branches>
+                <Title>Barcelona</Title>
+                <branchnumber>3</branchnumber>
+                <employeesnumber>4</employeesnumber>
+                <balances>7.000euros</balances>
+  	   </branches>
+</bank>
